@@ -1,0 +1,19 @@
+{
+   "name": "URL Backup Tool",
+   "version": "1.0",
+   "description": "Create Backup of your URL, Restore them even after restart",
+   "permissions": [  "storage",
+   "tabs" ],
+   "browser_action": {
+      "default_icon": "icon_16.png",
+      "default_popup": "popup.html"
+   },
+
+  "icons":  {
+      "16":       "icon_16.png",
+      "48":       "icon_48.png",
+      "128":      "icon_128.png"
+   },
+
+   "manifest_version": 2
+}
